@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1C444B25CA5547006C64C3 /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C444525CA5547006C64C3 /* TableViewAnimationKit.m */; };
+		4D1C444C25CA5547006C64C3 /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C444A25CA5547006C64C3 /* UITableView+XSAnimationKit.m */; };
+		4D1C449F25CA57B7006C64C3 /* MainInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C448725CA57B7006C64C3 /* MainInfoView.m */; };
+		4D1C44A025CA57B7006C64C3 /* ArrowAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C448925CA57B7006C64C3 /* ArrowAnimationView.m */; };
+		4D1C44A125CA57B7006C64C3 /* StartBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C448A25CA57B7006C64C3 /* StartBtn.m */; };
+		4D1C44A225CA57B7006C64C3 /* AssignPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C448E25CA57B7006C64C3 /* AssignPointModel.m */; };
+		4D1C44A325CA57B7006C64C3 /* AssignInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449025CA57B7006C64C3 /* AssignInfoView.m */; };
+		4D1C44A425CA57B7006C64C3 /* ButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449525CA57B7006C64C3 /* ButtonsView.m */; };
+		4D1C44A525CA57B7006C64C3 /* UIView+SetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449625CA57B7006C64C3 /* UIView+SetSize.m */; };
+		4D1C44A625CA57B7006C64C3 /* AssignPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449725CA57B7006C64C3 /* AssignPointView.m */; };
+		4D1C44A725CA57B7006C64C3 /* CellDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449A25CA57B7006C64C3 /* CellDataModel.m */; };
+		4D1C44A825CA57B7006C64C3 /* FlowMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449B25CA57B7006C64C3 /* FlowMenuView.m */; };
+		4D1C44A925CA57B7006C64C3 /* AssignInfoSingleCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449D25CA57B7006C64C3 /* AssignInfoSingleCellView.m */; };
+		4D1C44AA25CA57B7006C64C3 /* SpecialBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C449E25CA57B7006C64C3 /* SpecialBtn.m */; };
+		4D1C44B925CA9101006C64C3 /* TOP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C44B825CA9101006C64C3 /* TOP.plist */; };
+		4D1C44BC25CA9A59006C64C3 /* Quan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C44BB25CA9A59006C64C3 /* Quan.plist */; };
+		4D1C44C325CACD0D006C64C3 /* FanPionierSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44C225CACD0D006C64C3 /* FanPionierSettingController.m */; };
+		4D1C44D425CAD1B3006C64C3 /* FanPionierTopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44C825CAD1B3006C64C3 /* FanPionierTopController.m */; };
+		4D1C44D525CAD1B3006C64C3 /* FanPionierQuanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44C925CAD1B3006C64C3 /* FanPionierQuanController.m */; };
+		4D1C44D625CAD1B3006C64C3 /* FanPionierAddShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44CA25CAD1B3006C64C3 /* FanPionierAddShowController.m */; };
+		4D1C44D725CAD1B3006C64C3 /* FanPionierLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44CB25CAD1B3006C64C3 /* FanPionierLoginController.m */; };
+		4D1C44D825CAD1B3006C64C3 /* FanPionierHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44CD25CAD1B3006C64C3 /* FanPionierHomeController.m */; };
+		4D1C44D925CAD1B3006C64C3 /* FanPionierDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44CF25CAD1B3006C64C3 /* FanPionierDetailController.m */; };
+		4D1C44DA25CAD1B3006C64C3 /* FanPionierBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44D125CAD1B3006C64C3 /* FanPionierBannerCell.m */; };
+		4DC6CEE825C9A8D300445B85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEE725C9A8D300445B85 /* AppDelegate.m */; };
+		4DC6CEEB25C9A8D300445B85 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */; };
+		4DC6CEEE25C9A8D300445B85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEED25C9A8D300445B85 /* ViewController.m */; };
+		4DC6CEF125C9A8D300445B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEEF25C9A8D300445B85 /* Main.storyboard */; };
+		4DC6CEF325C9A8D400445B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEF225C9A8D400445B85 /* Assets.xcassets */; };
+		4DC6CEF625C9A8D400445B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEF425C9A8D400445B85 /* LaunchScreen.storyboard */; };
+		4DC6CEF925C9A8D400445B85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEF825C9A8D400445B85 /* main.m */; };
+		4DC6CF0C25C9AA3400445B85 /* SKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CF0A25C9AA3400445B85 /* SKT.m */; };
+		4DC6CF1E25C9B2FA00445B85 /* Home.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CF1D25C9B2FA00445B85 /* Home.plist */; };
+		5F3CF2548DE73D3F1580027C /* Pods_Fan_Pionier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23060B0116FFDD1CCCB0F3B1 /* Pods-Fan Pionier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fan Pionier.debug.xcconfig"; path = "Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1C444525CA5547006C64C3 /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		4D1C444625CA5547006C64C3 /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		4D1C444725CA5547006C64C3 /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
+		4D1C444825CA5547006C64C3 /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		4D1C444925CA5547006C64C3 /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		4D1C444A25CA5547006C64C3 /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
+		4D1C448725CA57B7006C64C3 /* MainInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInfoView.m; sourceTree = "<group>"; };
+		4D1C448825CA57B7006C64C3 /* CellDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDataModel.h; sourceTree = "<group>"; };
+		4D1C448925CA57B7006C64C3 /* ArrowAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowAnimationView.m; sourceTree = "<group>"; };
+		4D1C448A25CA57B7006C64C3 /* StartBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartBtn.m; sourceTree = "<group>"; };
+		4D1C448B25CA57B7006C64C3 /* AssignPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignPointView.h; sourceTree = "<group>"; };
+		4D1C448C25CA57B7006C64C3 /* UIView+SetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetSize.h"; sourceTree = "<group>"; };
+		4D1C448D25CA57B7006C64C3 /* ButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsView.h; sourceTree = "<group>"; };
+		4D1C448E25CA57B7006C64C3 /* AssignPointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignPointModel.m; sourceTree = "<group>"; };
+		4D1C448F25CA57B7006C64C3 /* SpecialBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialBtn.h; sourceTree = "<group>"; };
+		4D1C449025CA57B7006C64C3 /* AssignInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignInfoView.m; sourceTree = "<group>"; };
+		4D1C449125CA57B7006C64C3 /* AssignInfoSingleCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignInfoSingleCellView.h; sourceTree = "<group>"; };
+		4D1C449225CA57B7006C64C3 /* FlowMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowMenuView.h; sourceTree = "<group>"; };
+		4D1C449325CA57B7006C64C3 /* MainInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInfoView.h; sourceTree = "<group>"; };
+		4D1C449425CA57B7006C64C3 /* AssignPointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignPointModel.h; sourceTree = "<group>"; };
+		4D1C449525CA57B7006C64C3 /* ButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsView.m; sourceTree = "<group>"; };
+		4D1C449625CA57B7006C64C3 /* UIView+SetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetSize.m"; sourceTree = "<group>"; };
+		4D1C449725CA57B7006C64C3 /* AssignPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignPointView.m; sourceTree = "<group>"; };
+		4D1C449825CA57B7006C64C3 /* StartBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartBtn.h; sourceTree = "<group>"; };
+		4D1C449925CA57B7006C64C3 /* ArrowAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowAnimationView.h; sourceTree = "<group>"; };
+		4D1C449A25CA57B7006C64C3 /* CellDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDataModel.m; sourceTree = "<group>"; };
+		4D1C449B25CA57B7006C64C3 /* FlowMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowMenuView.m; sourceTree = "<group>"; };
+		4D1C449C25CA57B7006C64C3 /* AssignInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignInfoView.h; sourceTree = "<group>"; };
+		4D1C449D25CA57B7006C64C3 /* AssignInfoSingleCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignInfoSingleCellView.m; sourceTree = "<group>"; };
+		4D1C449E25CA57B7006C64C3 /* SpecialBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialBtn.m; sourceTree = "<group>"; };
+		4D1C44B825CA9101006C64C3 /* TOP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TOP.plist; sourceTree = "<group>"; };
+		4D1C44BB25CA9A59006C64C3 /* Quan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quan.plist; sourceTree = "<group>"; };
+		4D1C44C125CACD0D006C64C3 /* FanPionierSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanPionierSettingController.h; sourceTree = "<group>"; };
+		4D1C44C225CACD0D006C64C3 /* FanPionierSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanPionierSettingController.m; sourceTree = "<group>"; };
+		4D1C44C625CAD1B3006C64C3 /* FanPionierLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierLoginController.h; sourceTree = "<group>"; };
+		4D1C44C725CAD1B3006C64C3 /* FanPionierTopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierTopController.h; sourceTree = "<group>"; };
+		4D1C44C825CAD1B3006C64C3 /* FanPionierTopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierTopController.m; sourceTree = "<group>"; };
+		4D1C44C925CAD1B3006C64C3 /* FanPionierQuanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierQuanController.m; sourceTree = "<group>"; };
+		4D1C44CA25CAD1B3006C64C3 /* FanPionierAddShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierAddShowController.m; sourceTree = "<group>"; };
+		4D1C44CB25CAD1B3006C64C3 /* FanPionierLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierLoginController.m; sourceTree = "<group>"; };
+		4D1C44CC25CAD1B3006C64C3 /* FanPionierHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierHomeController.h; sourceTree = "<group>"; };
+		4D1C44CD25CAD1B3006C64C3 /* FanPionierHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierHomeController.m; sourceTree = "<group>"; };
+		4D1C44CE25CAD1B3006C64C3 /* FanPionierDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierDetailController.h; sourceTree = "<group>"; };
+		4D1C44CF25CAD1B3006C64C3 /* FanPionierDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierDetailController.m; sourceTree = "<group>"; };
+		4D1C44D025CAD1B3006C64C3 /* FanPionierQuanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierQuanController.h; sourceTree = "<group>"; };
+		4D1C44D125CAD1B3006C64C3 /* FanPionierBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanPionierBannerCell.m; sourceTree = "<group>"; };
+		4D1C44D225CAD1B3006C64C3 /* FanPionierAddShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierAddShowController.h; sourceTree = "<group>"; };
+		4D1C44D325CAD1B3006C64C3 /* FanPionierBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanPionierBannerCell.h; sourceTree = "<group>"; };
+		4DC6CEE325C9A8D300445B85 /* Fan Pionier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fan Pionier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC6CEE625C9A8D300445B85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC6CEE725C9A8D300445B85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC6CEE925C9A8D300445B85 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4DC6CEEC25C9A8D300445B85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC6CEED25C9A8D300445B85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC6CEF025C9A8D300445B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC6CEF225C9A8D400445B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC6CEF525C9A8D400445B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC6CEF725C9A8D400445B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC6CEF825C9A8D400445B85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC6CF0925C9AA3400445B85 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4DC6CF0A25C9AA3400445B85 /* SKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKT.m; sourceTree = "<group>"; };
+		4DC6CF0B25C9AA3400445B85 /* SKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKT.h; sourceTree = "<group>"; };
+		4DC6CF1D25C9B2FA00445B85 /* Home.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Home.plist; sourceTree = "<group>"; };
+		755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fan_Pionier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50A20D8A209AE0D2E3A114C /* Pods-Fan Pionier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fan Pionier.release.xcconfig"; path = "Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC6CEE025C9A8D300445B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CF2548DE73D3F1580027C /* Pods_Fan_Pionier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1C444425CA5547006C64C3 /* TableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				4D1C444525CA5547006C64C3 /* TableViewAnimationKit.m */,
+				4D1C444625CA5547006C64C3 /* TableViewAnimationKitHeaders.h */,
+				4D1C444725CA5547006C64C3 /* UITableView+XSAnimationKit.h */,
+				4D1C444825CA5547006C64C3 /* TableViewAnimationKitConfig.h */,
+				4D1C444925CA5547006C64C3 /* TableViewAnimationKit.h */,
+				4D1C444A25CA5547006C64C3 /* UITableView+XSAnimationKit.m */,
+			);
+			path = TableViewAnimationKit;
+			sourceTree = "<group>";
+		};
+		4D1C448625CA57B7006C64C3 /* FlowMenuAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4D1C449925CA57B7006C64C3 /* ArrowAnimationView.h */,
+				4D1C448925CA57B7006C64C3 /* ArrowAnimationView.m */,
+				4D1C449125CA57B7006C64C3 /* AssignInfoSingleCellView.h */,
+				4D1C449D25CA57B7006C64C3 /* AssignInfoSingleCellView.m */,
+				4D1C449C25CA57B7006C64C3 /* AssignInfoView.h */,
+				4D1C449025CA57B7006C64C3 /* AssignInfoView.m */,
+				4D1C449425CA57B7006C64C3 /* AssignPointModel.h */,
+				4D1C448E25CA57B7006C64C3 /* AssignPointModel.m */,
+				4D1C448B25CA57B7006C64C3 /* AssignPointView.h */,
+				4D1C449725CA57B7006C64C3 /* AssignPointView.m */,
+				4D1C448D25CA57B7006C64C3 /* ButtonsView.h */,
+				4D1C449525CA57B7006C64C3 /* ButtonsView.m */,
+				4D1C448825CA57B7006C64C3 /* CellDataModel.h */,
+				4D1C449A25CA57B7006C64C3 /* CellDataModel.m */,
+				4D1C449225CA57B7006C64C3 /* FlowMenuView.h */,
+				4D1C449B25CA57B7006C64C3 /* FlowMenuView.m */,
+				4D1C449325CA57B7006C64C3 /* MainInfoView.h */,
+				4D1C448725CA57B7006C64C3 /* MainInfoView.m */,
+				4D1C448F25CA57B7006C64C3 /* SpecialBtn.h */,
+				4D1C449E25CA57B7006C64C3 /* SpecialBtn.m */,
+				4D1C449825CA57B7006C64C3 /* StartBtn.h */,
+				4D1C448A25CA57B7006C64C3 /* StartBtn.m */,
+				4D1C448C25CA57B7006C64C3 /* UIView+SetSize.h */,
+				4D1C449625CA57B7006C64C3 /* UIView+SetSize.m */,
+			);
+			path = FlowMenuAnimation;
+			sourceTree = "<group>";
+		};
+		4DC6CEDA25C9A8D300445B85 = {
+			isa = PBXGroup;
+			children = (
+				4DC6CEE525C9A8D300445B85 /* Fan Pionier */,
+				4DC6CEE425C9A8D300445B85 /* Products */,
+				E3DB893E10D4F6E3143660F7 /* Pods */,
+				BAC21DD3EADDFE82EC1669B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC6CEE425C9A8D300445B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6CEE325C9A8D300445B85 /* Fan Pionier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC6CEE525C9A8D300445B85 /* Fan Pionier */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6CF0B25C9AA3400445B85 /* SKT.h */,
+				4DC6CF0A25C9AA3400445B85 /* SKT.m */,
+				4DC6CF1D25C9B2FA00445B85 /* Home.plist */,
+				4D1C44BB25CA9A59006C64C3 /* Quan.plist */,
+				4D1C44B825CA9101006C64C3 /* TOP.plist */,
+				4DC6CEE625C9A8D300445B85 /* AppDelegate.h */,
+				4DC6CEE725C9A8D300445B85 /* AppDelegate.m */,
+				4DC6CEE925C9A8D300445B85 /* SceneDelegate.h */,
+				4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */,
+				4DC6CEEC25C9A8D300445B85 /* ViewController.h */,
+				4DC6CEED25C9A8D300445B85 /* ViewController.m */,
+				4D1C44D225CAD1B3006C64C3 /* FanPionierAddShowController.h */,
+				4D1C44CA25CAD1B3006C64C3 /* FanPionierAddShowController.m */,
+				4D1C44D325CAD1B3006C64C3 /* FanPionierBannerCell.h */,
+				4D1C44D125CAD1B3006C64C3 /* FanPionierBannerCell.m */,
+				4D1C44CE25CAD1B3006C64C3 /* FanPionierDetailController.h */,
+				4D1C44CF25CAD1B3006C64C3 /* FanPionierDetailController.m */,
+				4D1C44CC25CAD1B3006C64C3 /* FanPionierHomeController.h */,
+				4D1C44CD25CAD1B3006C64C3 /* FanPionierHomeController.m */,
+				4D1C44C625CAD1B3006C64C3 /* FanPionierLoginController.h */,
+				4D1C44CB25CAD1B3006C64C3 /* FanPionierLoginController.m */,
+				4D1C44D025CAD1B3006C64C3 /* FanPionierQuanController.h */,
+				4D1C44C925CAD1B3006C64C3 /* FanPionierQuanController.m */,
+				4D1C44C725CAD1B3006C64C3 /* FanPionierTopController.h */,
+				4D1C44C825CAD1B3006C64C3 /* FanPionierTopController.m */,
+				4D1C44C125CACD0D006C64C3 /* FanPionierSettingController.h */,
+				4D1C44C225CACD0D006C64C3 /* FanPionierSettingController.m */,
+				4D1C448625CA57B7006C64C3 /* FlowMenuAnimation */,
+				4D1C444425CA5547006C64C3 /* TableViewAnimationKit */,
+				4DC6CEEF25C9A8D300445B85 /* Main.storyboard */,
+				4DC6CEF225C9A8D400445B85 /* Assets.xcassets */,
+				4DC6CEF425C9A8D400445B85 /* LaunchScreen.storyboard */,
+				4DC6CF0925C9AA3400445B85 /* PrefixHeader.pch */,
+				4DC6CEF725C9A8D400445B85 /* Info.plist */,
+				4DC6CEF825C9A8D400445B85 /* main.m */,
+			);
+			path = "Fan Pionier";
+			sourceTree = "<group>";
+		};
+		BAC21DD3EADDFE82EC1669B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3DB893E10D4F6E3143660F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23060B0116FFDD1CCCB0F3B1 /* Pods-Fan Pionier.debug.xcconfig */,
+				C50A20D8A209AE0D2E3A114C /* Pods-Fan Pionier.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC6CEE225C9A8D300445B85 /* Fan Pionier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6CEFC25C9A8D400445B85 /* Build configuration list for PBXNativeTarget "Fan Pionier" */;
+			buildPhases = (
+				E959CF510D8B289014BCD5F4 /* [CP] Check Pods Manifest.lock */,
+				4DC6CEDF25C9A8D300445B85 /* Sources */,
+				4DC6CEE025C9A8D300445B85 /* Frameworks */,
+				4DC6CEE125C9A8D300445B85 /* Resources */,
+				D1B6D321CF743026DB52243A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fan Pionier";
+			productName = "Fan Pionier";
+			productReference = 4DC6CEE325C9A8D300445B85 /* Fan Pionier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC6CEDB25C9A8D300445B85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FanPionier;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					4DC6CEE225C9A8D300445B85 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DC6CEDE25C9A8D300445B85 /* Build configuration list for PBXProject "Fan Pionier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC6CEDA25C9A8D300445B85;
+			productRefGroup = 4DC6CEE425C9A8D300445B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC6CEE225C9A8D300445B85 /* Fan Pionier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC6CEE125C9A8D300445B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6CEF625C9A8D400445B85 /* LaunchScreen.storyboard in Resources */,
+				4DC6CF1E25C9B2FA00445B85 /* Home.plist in Resources */,
+				4DC6CEF325C9A8D400445B85 /* Assets.xcassets in Resources */,
+				4D1C44B925CA9101006C64C3 /* TOP.plist in Resources */,
+				4DC6CEF125C9A8D300445B85 /* Main.storyboard in Resources */,
+				4D1C44BC25CA9A59006C64C3 /* Quan.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1B6D321CF743026DB52243A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E959CF510D8B289014BCD5F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fan Pionier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC6CEDF25C9A8D300445B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1C44D825CAD1B3006C64C3 /* FanPionierHomeController.m in Sources */,
+				4D1C44A525CA57B7006C64C3 /* UIView+SetSize.m in Sources */,
+				4D1C444C25CA5547006C64C3 /* UITableView+XSAnimationKit.m in Sources */,
+				4D1C449F25CA57B7006C64C3 /* MainInfoView.m in Sources */,
+				4D1C44A025CA57B7006C64C3 /* ArrowAnimationView.m in Sources */,
+				4D1C44A825CA57B7006C64C3 /* FlowMenuView.m in Sources */,
+				4DC6CF0C25C9AA3400445B85 /* SKT.m in Sources */,
+				4D1C44D725CAD1B3006C64C3 /* FanPionierLoginController.m in Sources */,
+				4D1C44D425CAD1B3006C64C3 /* FanPionierTopController.m in Sources */,
+				4D1C44D925CAD1B3006C64C3 /* FanPionierDetailController.m in Sources */,
+				4D1C44A725CA57B7006C64C3 /* CellDataModel.m in Sources */,
+				4D1C44A925CA57B7006C64C3 /* AssignInfoSingleCellView.m in Sources */,
+				4DC6CEEE25C9A8D300445B85 /* ViewController.m in Sources */,
+				4D1C44A425CA57B7006C64C3 /* ButtonsView.m in Sources */,
+				4D1C444B25CA5547006C64C3 /* TableViewAnimationKit.m in Sources */,
+				4D1C44A325CA57B7006C64C3 /* AssignInfoView.m in Sources */,
+				4D1C44A225CA57B7006C64C3 /* AssignPointModel.m in Sources */,
+				4DC6CEE825C9A8D300445B85 /* AppDelegate.m in Sources */,
+				4D1C44A625CA57B7006C64C3 /* AssignPointView.m in Sources */,
+				4D1C44D625CAD1B3006C64C3 /* FanPionierAddShowController.m in Sources */,
+				4D1C44A125CA57B7006C64C3 /* StartBtn.m in Sources */,
+				4DC6CEF925C9A8D400445B85 /* main.m in Sources */,
+				4D1C44C325CACD0D006C64C3 /* FanPionierSettingController.m in Sources */,
+				4D1C44D525CAD1B3006C64C3 /* FanPionierQuanController.m in Sources */,
+				4D1C44DA25CAD1B3006C64C3 /* FanPionierBannerCell.m in Sources */,
+				4DC6CEEB25C9A8D300445B85 /* SceneDelegate.m in Sources */,
+				4D1C44AA25CA57B7006C64C3 /* SpecialBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DC6CEEF25C9A8D300445B85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC6CEF025C9A8D300445B85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC6CEF425C9A8D400445B85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC6CEF525C9A8D400445B85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC6CEFA25C9A8D400445B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DC6CEFB25C9A8D400445B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC6CEFD25C9A8D400445B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23060B0116FFDD1CCCB0F3B1 /* Pods-Fan Pionier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW265UXG9X;
+				GCC_PREFIX_HEADER = "Fan Pionier/PrefixHeader.pch";
+				INFOPLIST_FILE = "Fan Pionier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.fanpionier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DC6CEFE25C9A8D400445B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50A20D8A209AE0D2E3A114C /* Pods-Fan Pionier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW265UXG9X;
+				GCC_PREFIX_HEADER = "Fan Pionier/PrefixHeader.pch";
+				INFOPLIST_FILE = "Fan Pionier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.fanpionier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC6CEDE25C9A8D300445B85 /* Build configuration list for PBXProject "Fan Pionier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6CEFA25C9A8D400445B85 /* Debug */,
+				4DC6CEFB25C9A8D400445B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6CEFC25C9A8D400445B85 /* Build configuration list for PBXNativeTarget "Fan Pionier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6CEFD25C9A8D400445B85 /* Debug */,
+				4DC6CEFE25C9A8D400445B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC6CEDB25C9A8D300445B85 /* Project object */;
+}

@@ -1,0 +1,42 @@
+PODS:
+  - BearSkill (0.2.0)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - SCLAlertView-Objective-C (1.2.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+
+DEPENDENCIES:
+  - BearSkill
+  - DZNEmptyDataSet
+  - IQKeyboardManager
+  - Masonry
+  - MJRefresh
+  - SCLAlertView-Objective-C
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - BearSkill
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - SCLAlertView-Objective-C
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  BearSkill: 180b4d49cfae7466f65402eabcdb8d5a28665314
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SCLAlertView-Objective-C: 84f12f66d779dadad7f293e5e8b7697ba4254ee0
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+
+PODFILE CHECKSUM: a0fa961ac589d973e54ee331bcfbf030da1981da
+
+COCOAPODS: 1.9.3

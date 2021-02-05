@@ -1,0 +1,6 @@
+framework module Pods_Fan_Pionier {
+  umbrella header "Pods-Fan Pionier-umbrella.h"
+
+  export *
+  module * { export * }
+}
