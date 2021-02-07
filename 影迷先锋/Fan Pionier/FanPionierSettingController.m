@@ -37,35 +37,37 @@
 }
 
 - (IBAction)FanPionierActions:(UIButton *)sender {
-    switch (sender.tag) {
-        case 0:
-            [self FanPionierChangeTheme:NO];
-            break;
-        case 1:
-            [self FanPionierChangeTheme:YES];
-            break;
-        case 2:
-            [self FanPionierCollectHome];
-            break;
-        case 3:
-            [self FanPionierCollectShow];
-            break;
-        case 4:
-            [self FanPionierSubmintShow];
-            break;
-        case 5:
-            [self FanPionierClearUpShare];
-            break;
-        case 6:
-            [self FanPionierClearUpRate];
-            break;
-        case 7:
-            [self FanPionierLoginRegist];
-            break;
-            
-        default:
-            break;
-    }
+    [self showADComplete:^{
+        switch (sender.tag) {
+            case 0:
+                [self FanPionierChangeTheme:NO];
+                break;
+            case 1:
+                [self FanPionierChangeTheme:YES];
+                break;
+            case 2:
+                [self FanPionierCollectHome];
+                break;
+            case 3:
+                [self FanPionierCollectShow];
+                break;
+            case 4:
+                [self FanPionierSubmintShow];
+                break;
+            case 5:
+                [self FanPionierClearUpShare];
+                break;
+            case 6:
+                [self FanPionierClearUpRate];
+                break;
+            case 7:
+                [self FanPionierLoginRegist];
+                break;
+                
+            default:
+                break;
+        }
+    }];
 }
 
 - (void)FanPionierChangeTheme:(BOOL)isNight {

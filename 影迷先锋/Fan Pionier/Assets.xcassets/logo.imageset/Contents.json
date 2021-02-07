@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "logo.png",
+      "filename" : "香蕉1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "香蕉1-1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "香蕉1-2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

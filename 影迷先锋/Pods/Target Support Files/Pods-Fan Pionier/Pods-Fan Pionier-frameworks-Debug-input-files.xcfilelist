@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/BearSkill/BearSkill.framework
 ${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework

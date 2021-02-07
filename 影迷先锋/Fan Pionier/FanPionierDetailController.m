@@ -56,42 +56,45 @@
         
         self.FanPionierFlowMenuView = [[FlowMenuView alloc] initWithFrame:CGRectMake(0, 0, SKWidth, SKWidth/2+(IPhoneX?44:20)) withDataModel:tempModel block:^(NSInteger index) {
             [FanPionierLoginController checkLogin:^(BOOL completed) {
-                switch (index) {
-                    case 0: {
-                        if ([SKT update:self.FanPionierInfo Key:SKAccount(@"CollectHome")]) {
-                            [SKT showInfo:SKInfoTypeSuccess content:@"收藏成功" block:nil];
-                        } else {
-                            [SKT showInfo:SKInfoTypeSuccess content:@"取消收藏" block:nil];
+                [self showADComplete:^{
+                    switch (index) {
+                        case 0: {
+                            if ([SKT update:self.FanPionierInfo Key:SKAccount(@"CollectHome")]) {
+                                [SKT showInfo:SKInfoTypeSuccess content:@"收藏成功" block:nil];
+                            } else {
+                                [SKT showInfo:SKInfoTypeSuccess content:@"取消收藏" block:nil];
+                            }
                         }
-                    }
-                        break;
-                    case 1: {
-                        [SKSheetView show:@"举报内容" sheets:@[@"色情低俗", @"广告骚扰", @"诱导分享", @"谣言", @"政治敏感", @"违法（暴力恐怖、违禁品等）", @"侵权", @"售假", @"其他"] isColor:NO block:^(NSInteger index, NSString * _Nullable content) {
-                            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                                
-                                [SKT save:self.FanPionierInfo Key:SKAccount(@"Block")];
-                                [SKT showInfo:SKInfoTypeLoding content:@"我们将在24小时内审核你的举报的违规信息，如果确定违规将会删除信息，现阶段已帮你屏蔽信息" block:^(BOOL completed) {
-                                    [self.navigationController popViewControllerAnimated:YES];
-                                }];
-                            });
-                        }];
-                    }
-                        break;
-                    case 2: {
-                        [SKT showClick:@"拉黑用户" content:@"拉黑用户会屏蔽其相关内容，但这个操作目前是不可逆的，是否确定？" clicks:@[@"确定"] block:^(NSInteger index) {
-                            [SKT save:self.FanPionierInfo[0] Key:SKAccount(@"Lahei")];
-                            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                                [SKT showInfo:SKInfoTypeLoding content:@"拉黑成功" block:^(BOOL completed) {
-                                    [self.navigationController popViewControllerAnimated:YES];
-                                }];
-                            });
-                        }];
-                    }
-                        break;
+                            break;
+                        case 1: {
+                            [SKSheetView show:@"举报内容" sheets:@[@"色情低俗", @"广告骚扰", @"诱导分享", @"谣言", @"政治敏感", @"违法（暴力恐怖、违禁品等）", @"侵权", @"售假", @"其他"] isColor:NO block:^(NSInteger index, NSString * _Nullable content) {
+                                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                                    
+                                    [SKT save:self.FanPionierInfo Key:SKAccount(@"Block")];
+                                    [SKT showInfo:SKInfoTypeLoding content:@"我们将在24小时内审核你的举报的违规信息，如果确定违规将会删除信息，现阶段已帮你屏蔽信息" block:^(BOOL completed) {
+                                        [self.navigationController popViewControllerAnimated:YES];
+                                    }];
+                                });
+                            }];
+                        }
+                            break;
+                        case 2: {
+                            [SKT showClick:@"拉黑用户" content:@"拉黑用户会屏蔽其相关内容，但这个操作目前是不可逆的，是否确定？" clicks:@[@"确定"] block:^(NSInteger index) {
+                                [SKT save:self.FanPionierInfo[0] Key:SKAccount(@"Lahei")];
+                                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                                    [SKT showInfo:SKInfoTypeLoding content:@"拉黑成功" block:^(BOOL completed) {
+                                        [self.navigationController popViewControllerAnimated:YES];
+                                    }];
+                                });
+                            }];
+                        }
+                            break;
 
-                    default:
-                        break;
-                }
+                        default:
+                            break;
+                    }
+                }];
+                
             }];
         }];
         [self loadData:tempModel];

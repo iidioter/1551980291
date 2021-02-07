@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - BearSkill (0.2.0)
   - DZNEmptyDataSet (1.8.1)
   - IQKeyboardManager (6.5.6)
@@ -8,8 +23,14 @@ PODS:
   - SDWebImage (5.10.0):
     - SDWebImage/Core (= 5.10.0)
   - SDWebImage/Core (5.10.0)
+  - UMAPM (1.1.1)
+  - UMCCommon (7.2.5):
+    - UMAPM
+    - UMDevice
+  - UMDevice (1.1.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - BearSkill
   - DZNEmptyDataSet
   - IQKeyboardManager
@@ -17,9 +38,11 @@ DEPENDENCIES:
   - MJRefresh
   - SCLAlertView-Objective-C
   - SDWebImage
+  - UMCCommon
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - BearSkill
     - DZNEmptyDataSet
     - IQKeyboardManager
@@ -27,8 +50,12 @@ SPEC REPOS:
     - MJRefresh
     - SCLAlertView-Objective-C
     - SDWebImage
+    - UMAPM
+    - UMCCommon
+    - UMDevice
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   BearSkill: 180b4d49cfae7466f65402eabcdb8d5a28665314
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
@@ -36,7 +63,10 @@ SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SCLAlertView-Objective-C: 84f12f66d779dadad7f293e5e8b7697ba4254ee0
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  UMAPM: d0623e0b3ca8b1a1df855e0bddb91b5c002d097d
+  UMCCommon: f7480d316381612f90cdde3a3c0f39a7e2c0a788
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
 
-PODFILE CHECKSUM: a0fa961ac589d973e54ee331bcfbf030da1981da
+PODFILE CHECKSUM: c4abc8d81f7176242f6138f15e1f177ec5be4b51
 
 COCOAPODS: 1.9.3

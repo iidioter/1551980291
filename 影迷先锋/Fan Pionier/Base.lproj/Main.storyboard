@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hf2-zc-nXT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hf2-zc-nXT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -622,7 +622,7 @@ a)在使用本软件网络服务进行网上交易时，您不可避免的要向
         <!--Tab Bar Controller-->
         <scene sceneID="pL1-Re-iK5">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hf2-zc-nXT" customClass="SKTabBarController" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabbar" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hf2-zc-nXT" customClass="SKTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="lSj-wh-0Wa">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -2096,7 +2096,7 @@ a)在使用本软件网络服务进行网上交易时，您不可避免的要向
         <image name="home (7)" width="29.333333969116211" height="29.333333969116211"/>
         <image name="hot" width="28.666666030883789" height="28.666666030883789"/>
         <image name="left" width="20" height="20"/>
-        <image name="logo" width="1024" height="1024"/>
+        <image name="logo" width="512" height="512"/>
         <image name="message.circle.fill" catalog="system" width="128" height="121"/>
         <image name="moon.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>

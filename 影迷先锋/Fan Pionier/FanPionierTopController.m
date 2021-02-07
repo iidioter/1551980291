@@ -60,6 +60,9 @@
 }
 
 - (IBAction)FanPionierAdd:(id)sender {
+    [self showADComplete:^{
+                
+    }];
 }
 
 #pragma mark - Table view data source
@@ -90,7 +93,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [FanPionierDetailController FanPionierPush:self.FanPionierData[indexPath.row]];
+    [self showADComplete:^{
+        [FanPionierDetailController FanPionierPush:self.FanPionierData[indexPath.row]];
+    }];
 }
 
 #pragma mark - DZNEmptyDataSetSource Methods

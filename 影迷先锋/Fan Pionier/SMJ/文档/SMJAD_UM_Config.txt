@@ -1,0 +1,14 @@
+splash_ad_load,开屏广告加载,0
+splash_ad_loadSuccess,开屏广告加载成功,0
+splash_ad_loadFail,开屏广告加载失败,0
+splash_ad_close,开屏广告关闭,0
+
+video_ad_load,插页视频广告加载,0
+video_ad_loadSuccess,插页视频广告加载成功,0
+video_ad_loadFail,插页视频广告加载失败,0
+video_ad_playFail,插页视频广告播放失败,0
+video_ad_close,插页视频广告关闭,0
+
+splash_ad_show,开屏广告展示,0
+video_ad_show,插页视频广告展示,0
+background_become_foreground,后台进入前台,0

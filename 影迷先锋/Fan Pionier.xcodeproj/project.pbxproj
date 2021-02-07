@@ -32,8 +32,6 @@
 		4D1C44D925CAD1B3006C64C3 /* FanPionierDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44CF25CAD1B3006C64C3 /* FanPionierDetailController.m */; };
 		4D1C44DA25CAD1B3006C64C3 /* FanPionierBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C44D125CAD1B3006C64C3 /* FanPionierBannerCell.m */; };
 		4DC6CEE825C9A8D300445B85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEE725C9A8D300445B85 /* AppDelegate.m */; };
-		4DC6CEEB25C9A8D300445B85 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */; };
-		4DC6CEEE25C9A8D300445B85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CEED25C9A8D300445B85 /* ViewController.m */; };
 		4DC6CEF125C9A8D300445B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEEF25C9A8D300445B85 /* Main.storyboard */; };
 		4DC6CEF325C9A8D400445B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEF225C9A8D400445B85 /* Assets.xcassets */; };
 		4DC6CEF625C9A8D400445B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CEF425C9A8D400445B85 /* LaunchScreen.storyboard */; };
@@ -41,6 +39,38 @@
 		4DC6CF0C25C9AA3400445B85 /* SKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6CF0A25C9AA3400445B85 /* SKT.m */; };
 		4DC6CF1E25C9B2FA00445B85 /* Home.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6CF1D25C9B2FA00445B85 /* Home.plist */; };
 		5F3CF2548DE73D3F1580027C /* Pods_Fan_Pionier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */; };
+		E3FB7D7225CD16E3005FFE1D /* SMJAD_UM_Config.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7D5425CD16E3005FFE1D /* SMJAD_UM_Config.txt */; };
+		E3FB7D7325CD16E3005FFE1D /* 广告库接入和使用.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7D5525CD16E3005FFE1D /* 广告库接入和使用.txt */; };
+		E3FB7D7425CD16E3005FFE1D /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D5825CD16E3005FFE1D /* BUAdSDK.framework */; };
+		E3FB7D7525CD16E3005FFE1D /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D5925CD16E3005FFE1D /* BUCNAuxiliary.framework */; };
+		E3FB7D7625CD16E3005FFE1D /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D5A25CD16E3005FFE1D /* BUFoundation.framework */; };
+		E3FB7D7725CD16E3005FFE1D /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7D5B25CD16E3005FFE1D /* BUAdSDK.bundle */; };
+		E3FB7D7825CD16E3005FFE1D /* libLiteADLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D5E25CD16E3005FFE1D /* libLiteADLibrary.a */; };
+		E3FB7D7925CD16E3005FFE1D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6025CD16E3005FFE1D /* MBProgressHUD.m */; };
+		E3FB7D7A25CD16E3005FFE1D /* UIView+action.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6525CD16E3005FFE1D /* UIView+action.m */; };
+		E3FB7D7B25CD16E3005FFE1D /* AdBannerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6625CD16E3005FFE1D /* AdBannerHeadView.m */; };
+		E3FB7D7C25CD16E3005FFE1D /* UIImageView+SSWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6725CD16E3005FFE1D /* UIImageView+SSWebImage.m */; };
+		E3FB7D7D25CD16E3005FFE1D /* SMJADmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6925CD16E3005FFE1D /* SMJADmanager.m */; };
+		E3FB7D7E25CD16E3005FFE1D /* UIViewController+showAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6C25CD16E3005FFE1D /* UIViewController+showAd.m */; };
+		E3FB7D7F25CD16E3005FFE1D /* SMJADRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6D25CD16E3005FFE1D /* SMJADRootViewController.m */; };
+		E3FB7D8025CD16E3005FFE1D /* SMJADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7D6E25CD16E3005FFE1D /* SMJADNavigationController.m */; };
+		E3FB7D8325CD1735005FFE1D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D8225CD1730005FFE1D /* libc++.tbd */; };
+		E3FB7D8525CD1738005FFE1D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D8425CD1738005FFE1D /* libz.tbd */; };
+		E3FB7D9425CD1742005FFE1D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D8625CD173F005FFE1D /* libsqlite3.tbd */; };
+		E3FB7D9725CD1746005FFE1D /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D9625CD1746005FFE1D /* libbz2.tbd */; };
+		E3FB7D9A25CD174B005FFE1D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D9925CD174B005FFE1D /* libxml2.tbd */; };
+		E3FB7D9D25CD1752005FFE1D /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D9C25CD1752005FFE1D /* libresolv.9.tbd */; };
+		E3FB7DA025CD1758005FFE1D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D9F25CD1758005FFE1D /* Accelerate.framework */; };
+		E3FB7DA325CD175F005FFE1D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DA225CD175F005FFE1D /* AdSupport.framework */; };
+		E3FB7DA625CD1765005FFE1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DA525CD1765005FFE1D /* AVFoundation.framework */; };
+		E3FB7DA925CD176A005FFE1D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DA825CD176A005FFE1D /* CoreTelephony.framework */; };
+		E3FB7DAB25CD1771005FFE1D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DAA25CD1770005FFE1D /* CoreMotion.framework */; };
+		E3FB7DAD25CD1775005FFE1D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DAC25CD1775005FFE1D /* CoreLocation.framework */; };
+		E3FB7DAF25CD177B005FFE1D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DAE25CD177B005FFE1D /* CoreMedia.framework */; };
+		E3FB7DB125CD1780005FFE1D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DB025CD1780005FFE1D /* MediaPlayer.framework */; };
+		E3FB7DB325CD1788005FFE1D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DB225CD1788005FFE1D /* StoreKit.framework */; };
+		E3FB7DB525CD178E005FFE1D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DB425CD178E005FFE1D /* SystemConfiguration.framework */; };
+		E3FB7DB725CD1793005FFE1D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7DB625CD1793005FFE1D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,10 +126,6 @@
 		4DC6CEE325C9A8D300445B85 /* Fan Pionier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fan Pionier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC6CEE625C9A8D300445B85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DC6CEE725C9A8D300445B85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DC6CEE925C9A8D300445B85 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4DC6CEEC25C9A8D300445B85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DC6CEED25C9A8D300445B85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DC6CEF025C9A8D300445B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DC6CEF225C9A8D400445B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC6CEF525C9A8D400445B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,6 +137,48 @@
 		4DC6CF1D25C9B2FA00445B85 /* Home.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Home.plist; sourceTree = "<group>"; };
 		755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fan_Pionier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50A20D8A209AE0D2E3A114C /* Pods-Fan Pionier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fan Pionier.release.xcconfig"; path = "Target Support Files/Pods-Fan Pionier/Pods-Fan Pionier.release.xcconfig"; sourceTree = "<group>"; };
+		E3FB7D5425CD16E3005FFE1D /* SMJAD_UM_Config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMJAD_UM_Config.txt; sourceTree = "<group>"; };
+		E3FB7D5525CD16E3005FFE1D /* 广告库接入和使用.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "广告库接入和使用.txt"; sourceTree = "<group>"; };
+		E3FB7D5625CD16E3005FFE1D /* SMJAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJAD.h; sourceTree = "<group>"; };
+		E3FB7D5825CD16E3005FFE1D /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		E3FB7D5925CD16E3005FFE1D /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		E3FB7D5A25CD16E3005FFE1D /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		E3FB7D5B25CD16E3005FFE1D /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		E3FB7D5D25CD16E3005FFE1D /* LiteADLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteADLibrary.h; sourceTree = "<group>"; };
+		E3FB7D5E25CD16E3005FFE1D /* libLiteADLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLiteADLibrary.a; sourceTree = "<group>"; };
+		E3FB7D6025CD16E3005FFE1D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E3FB7D6125CD16E3005FFE1D /* AdBannerHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdBannerHeadView.h; sourceTree = "<group>"; };
+		E3FB7D6225CD16E3005FFE1D /* UIView+action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+action.h"; sourceTree = "<group>"; };
+		E3FB7D6325CD16E3005FFE1D /* UIImageView+SSWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SSWebImage.h"; sourceTree = "<group>"; };
+		E3FB7D6425CD16E3005FFE1D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E3FB7D6525CD16E3005FFE1D /* UIView+action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+action.m"; sourceTree = "<group>"; };
+		E3FB7D6625CD16E3005FFE1D /* AdBannerHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdBannerHeadView.m; sourceTree = "<group>"; };
+		E3FB7D6725CD16E3005FFE1D /* UIImageView+SSWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SSWebImage.m"; sourceTree = "<group>"; };
+		E3FB7D6925CD16E3005FFE1D /* SMJADmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADmanager.m; sourceTree = "<group>"; };
+		E3FB7D6A25CD16E3005FFE1D /* SMJADmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADmanager.h; sourceTree = "<group>"; };
+		E3FB7D6C25CD16E3005FFE1D /* UIViewController+showAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+showAd.m"; sourceTree = "<group>"; };
+		E3FB7D6D25CD16E3005FFE1D /* SMJADRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADRootViewController.m; sourceTree = "<group>"; };
+		E3FB7D6E25CD16E3005FFE1D /* SMJADNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADNavigationController.m; sourceTree = "<group>"; };
+		E3FB7D6F25CD16E3005FFE1D /* UIViewController+showAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+showAd.h"; sourceTree = "<group>"; };
+		E3FB7D7025CD16E3005FFE1D /* SMJADRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADRootViewController.h; sourceTree = "<group>"; };
+		E3FB7D7125CD16E3005FFE1D /* SMJADNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADNavigationController.h; sourceTree = "<group>"; };
+		E3FB7D8225CD1730005FFE1D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E3FB7D8425CD1738005FFE1D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E3FB7D8625CD173F005FFE1D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E3FB7D9625CD1746005FFE1D /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E3FB7D9925CD174B005FFE1D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		E3FB7D9C25CD1752005FFE1D /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		E3FB7D9F25CD1758005FFE1D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3FB7DA225CD175F005FFE1D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E3FB7DA525CD1765005FFE1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3FB7DA825CD176A005FFE1D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E3FB7DAA25CD1770005FFE1D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E3FB7DAC25CD1775005FFE1D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3FB7DAE25CD177B005FFE1D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E3FB7DB025CD1780005FFE1D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E3FB7DB225CD1788005FFE1D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E3FB7DB425CD178E005FFE1D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3FB7DB625CD1793005FFE1D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +186,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FB7D7825CD16E3005FFE1D /* libLiteADLibrary.a in Frameworks */,
+				E3FB7DB725CD1793005FFE1D /* MobileCoreServices.framework in Frameworks */,
+				E3FB7DB525CD178E005FFE1D /* SystemConfiguration.framework in Frameworks */,
+				E3FB7DB325CD1788005FFE1D /* StoreKit.framework in Frameworks */,
+				E3FB7DB125CD1780005FFE1D /* MediaPlayer.framework in Frameworks */,
+				E3FB7DAF25CD177B005FFE1D /* CoreMedia.framework in Frameworks */,
+				E3FB7DAD25CD1775005FFE1D /* CoreLocation.framework in Frameworks */,
+				E3FB7DAB25CD1771005FFE1D /* CoreMotion.framework in Frameworks */,
+				E3FB7DA925CD176A005FFE1D /* CoreTelephony.framework in Frameworks */,
+				E3FB7DA625CD1765005FFE1D /* AVFoundation.framework in Frameworks */,
+				E3FB7DA325CD175F005FFE1D /* AdSupport.framework in Frameworks */,
+				E3FB7DA025CD1758005FFE1D /* Accelerate.framework in Frameworks */,
+				E3FB7D9D25CD1752005FFE1D /* libresolv.9.tbd in Frameworks */,
+				E3FB7D9A25CD174B005FFE1D /* libxml2.tbd in Frameworks */,
+				E3FB7D9725CD1746005FFE1D /* libbz2.tbd in Frameworks */,
+				E3FB7D9425CD1742005FFE1D /* libsqlite3.tbd in Frameworks */,
+				E3FB7D8525CD1738005FFE1D /* libz.tbd in Frameworks */,
+				E3FB7D8325CD1735005FFE1D /* libc++.tbd in Frameworks */,
+				E3FB7D7625CD16E3005FFE1D /* BUFoundation.framework in Frameworks */,
+				E3FB7D7525CD16E3005FFE1D /* BUCNAuxiliary.framework in Frameworks */,
 				5F3CF2548DE73D3F1580027C /* Pods_Fan_Pionier.framework in Frameworks */,
+				E3FB7D7425CD16E3005FFE1D /* BUAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +279,7 @@
 		4DC6CEE525C9A8D300445B85 /* Fan Pionier */ = {
 			isa = PBXGroup;
 			children = (
+				E3FB7D5225CD16E3005FFE1D /* SMJ */,
 				4DC6CF0B25C9AA3400445B85 /* SKT.h */,
 				4DC6CF0A25C9AA3400445B85 /* SKT.m */,
 				4DC6CF1D25C9B2FA00445B85 /* Home.plist */,
@@ -197,10 +287,6 @@
 				4D1C44B825CA9101006C64C3 /* TOP.plist */,
 				4DC6CEE625C9A8D300445B85 /* AppDelegate.h */,
 				4DC6CEE725C9A8D300445B85 /* AppDelegate.m */,
-				4DC6CEE925C9A8D300445B85 /* SceneDelegate.h */,
-				4DC6CEEA25C9A8D300445B85 /* SceneDelegate.m */,
-				4DC6CEEC25C9A8D300445B85 /* ViewController.h */,
-				4DC6CEED25C9A8D300445B85 /* ViewController.m */,
 				4D1C44D225CAD1B3006C64C3 /* FanPionierAddShowController.h */,
 				4D1C44CA25CAD1B3006C64C3 /* FanPionierAddShowController.m */,
 				4D1C44D325CAD1B3006C64C3 /* FanPionierBannerCell.h */,
@@ -232,6 +318,23 @@
 		BAC21DD3EADDFE82EC1669B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3FB7DB625CD1793005FFE1D /* MobileCoreServices.framework */,
+				E3FB7DB425CD178E005FFE1D /* SystemConfiguration.framework */,
+				E3FB7DB225CD1788005FFE1D /* StoreKit.framework */,
+				E3FB7DB025CD1780005FFE1D /* MediaPlayer.framework */,
+				E3FB7DAE25CD177B005FFE1D /* CoreMedia.framework */,
+				E3FB7DAC25CD1775005FFE1D /* CoreLocation.framework */,
+				E3FB7DAA25CD1770005FFE1D /* CoreMotion.framework */,
+				E3FB7DA825CD176A005FFE1D /* CoreTelephony.framework */,
+				E3FB7DA525CD1765005FFE1D /* AVFoundation.framework */,
+				E3FB7DA225CD175F005FFE1D /* AdSupport.framework */,
+				E3FB7D9F25CD1758005FFE1D /* Accelerate.framework */,
+				E3FB7D9C25CD1752005FFE1D /* libresolv.9.tbd */,
+				E3FB7D9925CD174B005FFE1D /* libxml2.tbd */,
+				E3FB7D9625CD1746005FFE1D /* libbz2.tbd */,
+				E3FB7D8625CD173F005FFE1D /* libsqlite3.tbd */,
+				E3FB7D8425CD1738005FFE1D /* libz.tbd */,
+				E3FB7D8225CD1730005FFE1D /* libc++.tbd */,
 				755B635A78503F7B96B8E64E /* Pods_Fan_Pionier.framework */,
 			);
 			name = Frameworks;
@@ -244,6 +347,86 @@
 				C50A20D8A209AE0D2E3A114C /* Pods-Fan Pionier.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3FB7D5225CD16E3005FFE1D /* SMJ */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D5325CD16E3005FFE1D /* 文档 */,
+				E3FB7D5625CD16E3005FFE1D /* SMJAD.h */,
+				E3FB7D5725CD16E3005FFE1D /* CSJSDK */,
+				E3FB7D5C25CD16E3005FFE1D /* LiteADLibrary */,
+				E3FB7D5F25CD16E3005FFE1D /* View */,
+				E3FB7D6825CD16E3005FFE1D /* SMJADmanager */,
+				E3FB7D6B25CD16E3005FFE1D /* ViewController */,
+			);
+			path = SMJ;
+			sourceTree = "<group>";
+		};
+		E3FB7D5325CD16E3005FFE1D /* 文档 */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D5425CD16E3005FFE1D /* SMJAD_UM_Config.txt */,
+				E3FB7D5525CD16E3005FFE1D /* 广告库接入和使用.txt */,
+			);
+			path = "文档";
+			sourceTree = "<group>";
+		};
+		E3FB7D5725CD16E3005FFE1D /* CSJSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D5825CD16E3005FFE1D /* BUAdSDK.framework */,
+				E3FB7D5925CD16E3005FFE1D /* BUCNAuxiliary.framework */,
+				E3FB7D5A25CD16E3005FFE1D /* BUFoundation.framework */,
+				E3FB7D5B25CD16E3005FFE1D /* BUAdSDK.bundle */,
+			);
+			path = CSJSDK;
+			sourceTree = "<group>";
+		};
+		E3FB7D5C25CD16E3005FFE1D /* LiteADLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D5D25CD16E3005FFE1D /* LiteADLibrary.h */,
+				E3FB7D5E25CD16E3005FFE1D /* libLiteADLibrary.a */,
+			);
+			path = LiteADLibrary;
+			sourceTree = "<group>";
+		};
+		E3FB7D5F25CD16E3005FFE1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D6025CD16E3005FFE1D /* MBProgressHUD.m */,
+				E3FB7D6125CD16E3005FFE1D /* AdBannerHeadView.h */,
+				E3FB7D6225CD16E3005FFE1D /* UIView+action.h */,
+				E3FB7D6325CD16E3005FFE1D /* UIImageView+SSWebImage.h */,
+				E3FB7D6425CD16E3005FFE1D /* MBProgressHUD.h */,
+				E3FB7D6525CD16E3005FFE1D /* UIView+action.m */,
+				E3FB7D6625CD16E3005FFE1D /* AdBannerHeadView.m */,
+				E3FB7D6725CD16E3005FFE1D /* UIImageView+SSWebImage.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3FB7D6825CD16E3005FFE1D /* SMJADmanager */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D6925CD16E3005FFE1D /* SMJADmanager.m */,
+				E3FB7D6A25CD16E3005FFE1D /* SMJADmanager.h */,
+			);
+			path = SMJADmanager;
+			sourceTree = "<group>";
+		};
+		E3FB7D6B25CD16E3005FFE1D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7D6C25CD16E3005FFE1D /* UIViewController+showAd.m */,
+				E3FB7D6D25CD16E3005FFE1D /* SMJADRootViewController.m */,
+				E3FB7D6E25CD16E3005FFE1D /* SMJADNavigationController.m */,
+				E3FB7D6F25CD16E3005FFE1D /* UIViewController+showAd.h */,
+				E3FB7D7025CD16E3005FFE1D /* SMJADRootViewController.h */,
+				E3FB7D7125CD16E3005FFE1D /* SMJADNavigationController.h */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,9 +490,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC6CEF625C9A8D400445B85 /* LaunchScreen.storyboard in Resources */,
+				E3FB7D7725CD16E3005FFE1D /* BUAdSDK.bundle in Resources */,
 				4DC6CF1E25C9B2FA00445B85 /* Home.plist in Resources */,
 				4DC6CEF325C9A8D400445B85 /* Assets.xcassets in Resources */,
+				E3FB7D7325CD16E3005FFE1D /* 广告库接入和使用.txt in Resources */,
 				4D1C44B925CA9101006C64C3 /* TOP.plist in Resources */,
+				E3FB7D7225CD16E3005FFE1D /* SMJAD_UM_Config.txt in Resources */,
 				4DC6CEF125C9A8D300445B85 /* Main.storyboard in Resources */,
 				4D1C44BC25CA9A59006C64C3 /* Quan.plist in Resources */,
 			);
@@ -374,23 +560,29 @@
 				4D1C44D725CAD1B3006C64C3 /* FanPionierLoginController.m in Sources */,
 				4D1C44D425CAD1B3006C64C3 /* FanPionierTopController.m in Sources */,
 				4D1C44D925CAD1B3006C64C3 /* FanPionierDetailController.m in Sources */,
+				E3FB7D7C25CD16E3005FFE1D /* UIImageView+SSWebImage.m in Sources */,
 				4D1C44A725CA57B7006C64C3 /* CellDataModel.m in Sources */,
 				4D1C44A925CA57B7006C64C3 /* AssignInfoSingleCellView.m in Sources */,
-				4DC6CEEE25C9A8D300445B85 /* ViewController.m in Sources */,
 				4D1C44A425CA57B7006C64C3 /* ButtonsView.m in Sources */,
 				4D1C444B25CA5547006C64C3 /* TableViewAnimationKit.m in Sources */,
 				4D1C44A325CA57B7006C64C3 /* AssignInfoView.m in Sources */,
 				4D1C44A225CA57B7006C64C3 /* AssignPointModel.m in Sources */,
 				4DC6CEE825C9A8D300445B85 /* AppDelegate.m in Sources */,
+				E3FB7D7D25CD16E3005FFE1D /* SMJADmanager.m in Sources */,
+				E3FB7D7F25CD16E3005FFE1D /* SMJADRootViewController.m in Sources */,
+				E3FB7D7A25CD16E3005FFE1D /* UIView+action.m in Sources */,
+				E3FB7D7E25CD16E3005FFE1D /* UIViewController+showAd.m in Sources */,
 				4D1C44A625CA57B7006C64C3 /* AssignPointView.m in Sources */,
 				4D1C44D625CAD1B3006C64C3 /* FanPionierAddShowController.m in Sources */,
 				4D1C44A125CA57B7006C64C3 /* StartBtn.m in Sources */,
 				4DC6CEF925C9A8D400445B85 /* main.m in Sources */,
 				4D1C44C325CACD0D006C64C3 /* FanPionierSettingController.m in Sources */,
+				E3FB7D8025CD16E3005FFE1D /* SMJADNavigationController.m in Sources */,
 				4D1C44D525CAD1B3006C64C3 /* FanPionierQuanController.m in Sources */,
 				4D1C44DA25CAD1B3006C64C3 /* FanPionierBannerCell.m in Sources */,
-				4DC6CEEB25C9A8D300445B85 /* SceneDelegate.m in Sources */,
 				4D1C44AA25CA57B7006C64C3 /* SpecialBtn.m in Sources */,
+				E3FB7D7925CD16E3005FFE1D /* MBProgressHUD.m in Sources */,
+				E3FB7D7B25CD16E3005FFE1D /* AdBannerHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,8 +643,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "armv7s armv7";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -510,8 +704,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "armv7s armv7";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -536,13 +732,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW265UXG9X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+				);
 				GCC_PREFIX_HEADER = "Fan Pionier/PrefixHeader.pch";
 				INFOPLIST_FILE = "Fan Pionier/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/LiteADLibrary",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.fanpionier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -557,13 +765,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW265UXG9X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/CSJSDK",
+				);
 				GCC_PREFIX_HEADER = "Fan Pionier/PrefixHeader.pch";
 				INFOPLIST_FILE = "Fan Pionier/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/LiteADLibrary",
+					"$(PROJECT_DIR)/Fan\\ Pionier/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.fanpionier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
